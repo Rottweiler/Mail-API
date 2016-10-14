@@ -5,7 +5,7 @@ Read emails from any public Mailinator.com inbox, add mail reading support in yo
 ### Features
  * Read mails from a Mailinator.com inbox
  * Get inbox data from a Mailinator.com inbox
- * 1 second timeout inbetweeen requests to keep public api server happy
+ * 1 second timeout inbetween requests to keep public api server happy
 ### Usage
 ```c#
 using MailAPI;
