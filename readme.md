@@ -8,6 +8,8 @@ Read emails from any public Mailinator.com inbox, add mail reading support in yo
  * 1 second timeout inbetweeen requests to keep public api server happy
 ### Usage
 ```c#
+using MailAPI;
+
 Mailinator api = new Mailinator("example_inbox"); //example_inbox@mailinator.com
 
 var inbox = api.getInboxStatus();
